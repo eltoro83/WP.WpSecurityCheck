@@ -1,0 +1,48 @@
+#security-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.security-summary, .security-details, .security-actions {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .security-summary, .security-details {
+        flex-basis: 48%;
+    }
+}
+
+#security-score-chart {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#security-checks-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#security-checks-table th, #security-checks-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#security-checks-table th {
+    background-color: #f2f2f2;
+}
+
+.security-status-good {
+    color: green;
+}
+
+.security-status-warning {
+    color: orange;
+}
+
+.security-status-bad {
+    color: red;
+}
