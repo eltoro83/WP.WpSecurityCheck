@@ -37,6 +37,9 @@ Nach der Aktivierung können Sie auf die Funktionen des Plugins über das Menü 
 4. **Einstellungen konfigurieren**: Passen Sie E-Mail-Benachrichtigungseinstellungen, Backup-Häufigkeit und andere Optionen in den Plugin-Einstellungen an.
 5. **Zwei-Faktor-Authentifizierung**: Aktivieren Sie die Zwei-Faktor-Authentifizierung für Administrator-Konten in den Benutzereinstellungen.
 
+## Screenshots
+![alt text](image.png)
+
 ## Anforderungen
 
 - WordPress 5.0 oder höher
